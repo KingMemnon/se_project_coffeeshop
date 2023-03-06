@@ -42,7 +42,7 @@ styles of coffee they serve"
 
   <body>
     <div class="page">
-      <!-- <header class="header">
+      <header class="header">
         <img
           src="./images/logo_coffee_shop.svg"
           alt="Practicum Coffee Shop Logo"
@@ -78,14 +78,16 @@ styles of coffee they serve"
           class="header__image"
         />
         <div class="header__footer">
-          p class="header__paragraph">Hours:</p>
+          <div class="header__footer-hours">
+            <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
-          <p class="header__address">
+          </div>
+          <p class="header__footer-address">
             200 Success Avenue, the Town of Practicum
           </p>
         </div>
-      </header> 
+      </header>
       <section class="menu" id="menu">
         <h2 class="menu__title">Menu</h2>
         <p class="menu__subtitle">
@@ -160,7 +162,7 @@ styles of coffee they serve"
         </div>
       </section>
       <section class="recipes" id="recipes">
-        <h1 class="recipes__title">Recipes</h1>
+        <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">
           Check out some recipes we've collected for your home-brewing
           convenience:
@@ -191,41 +193,40 @@ styles of coffee they serve"
         <h2 class="reservation__title">Book a table</h2>
         <form class="form reservation__form">
           <fieldset class="form__fieldset">
-            <label class="form__label" for="name">Name *</label>
-            <input
-              class="form__input"
-              type="text"
-              id="name"
-              placeholder="Name Surname"
-              required
-            />
-            <label class="form__label" for="guests">Number of guests *</label>
-            <input
-              type="number"
-              class="form__input"
-              id="guests"
-              placeholder="1-8"
-              min="1"
-              max="8"
-              required
-            />
-            <label class="form__label" for="datetime"> Date & time *</label>
-            <input
-              class="form__input"
-              type="datetime"
-              id="datetime"
-              placeholder="mm/dd/yyyy --:-- --"
-              required
-            />
+            <label class="form__label" for="name"
+              >Name *
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                placeholder="Name Surname"
+                required
+            /></label>
+            <label class="form__label" for="guests"
+              >Number of guests *
+              <input
+                type="number"
+                class="form__input"
+                id="guests"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+            /></label>
+            <label class="form__label">
+              Date & time *
+              <input class="form__input" type="datetime-local"
+            /></label>
 
-            <label class="form__label" for="email">Your email *</label>
-            <input
-              class="form__input"
-              type="email"
-              id="email"
-              placeholder="email@email.com"
-              required
-            />
+            <label class="form__label" for="email"
+              >Your email *
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+                required
+            /></label>
             <button class="form__button">Book a table</button>
             <label class="form__label_type_checkbox" for="i-agree">
               <input
@@ -239,20 +240,58 @@ styles of coffee they serve"
             </label>
           </fieldset>
         </form>
-      </section>-->
+      </section>
       <section class="about">
         <h2 class="about__title">About the coffee shop</h2>
         <div class="about__content">
-          <p class="about__paragragh">
+          <p class="about__paragragph">
             Our coffee shop is located in the Practicum Library's hall. It
-            features 6 tables and free WiFi. Our main mission is keeping guests
-            cozy and energized. Besides that, we try to reduce our environmental
-            impact-- so we don't sell single-use cups. But you can buy one of
-            our reusable cups!
+            features 6 tables and free WiFi.
+          </p>
+          <p class="about__paragragph">
+            Our main mission is keeping guests cozy and energized.
+          </p>
+          <p class="about__paragragph">
+            Besides that, we try to reduce our environmental impact--so we don't
+            sell single-use cups. But you can buy one of our reusable cups!
           </p>
         </div>
         <div class="about__circle"></div>
+        <div class="about__circle about__circle_animation_blurred"></div>
       </section>
+      <footer class="footer" id="contact">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="/images/practicum_logo.svg"
+            alt="Practicum logo in white"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Facebook logo white"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Instagram logo white"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy;2023 Christopher Dunbar</p>
+      </footer>
     </div>
   </body>
 </html>

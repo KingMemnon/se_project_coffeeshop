@@ -1,0 +1,42 @@
+.card {
+  flex-basis: 500px;
+  max-width: 600px;
+}
+.card__title {
+  font-family: "Inter";
+  font-style: "normal";
+  font-weight: bold;
+  margin: 0 0 32px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list {
+  padding: 0;
+}
+.card__list-item {
+  display: flex;
+  font-family: "noto serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0 0 16px 0;
+}
+.card__list-divider {
+  border-bottom: 2px solid #fff;
+  flex-grow: 2;
+  height: 10px;
+}
+.card li:last-child a:after {
+  margin: 0;
+}
+.recipes {
+  background-image: url(/images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 215px;
+}
