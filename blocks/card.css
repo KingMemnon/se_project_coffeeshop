@@ -31,12 +31,3 @@
 .card li:last-child a:after {
   margin: 0;
 }
-.recipes {
-  background-image: url(/images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #fff;
-  padding-top: 100px;
-  padding-bottom: 215px;
-}

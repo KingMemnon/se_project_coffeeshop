@@ -9,13 +9,7 @@
   background-image: url(/images/background_header.svg);
   background-size: cover;
 }
-.logo {
-  position: absolute;
-  padding-left: 30px;
-  padding-bottom: 80px;
-  max-width: 125px;
-  max-height: 142px;
-}
+
 .header__title {
   font-family: "Inter";
   font-style: normal;
