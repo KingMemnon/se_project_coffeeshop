@@ -1,6 +1,7 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
+
   max-width: 385px;
   width: 100%;
   padding-bottom: 120px;
@@ -10,7 +11,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  font-family: "inter";
+  font-family: "inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -20,7 +21,7 @@
   border-radius: 4px;
 }
 .form__input {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -44,11 +45,12 @@
   border-radius: 12px;
 }
 .form__button {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  width: 385px;
   border: none;
   opacity: 1;
   margin-top: 32px;

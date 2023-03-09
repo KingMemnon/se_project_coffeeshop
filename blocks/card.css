@@ -3,8 +3,8 @@
   max-width: 600px;
 }
 .card__title {
-  font-family: "Inter";
-  font-style: "normal";
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: bold;
   margin: 0 0 32px 0;
   font-size: 20px;
@@ -15,7 +15,7 @@
 }
 .card__list-item {
   display: flex;
-  font-family: "noto serif";
+  font-family: "noto serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -28,6 +28,6 @@
   flex-grow: 2;
   height: 10px;
 }
-.card li:last-child a:after {
-  margin: 0;
+.card__list-item:last-child {
+  margin-bottom: 0;
 }

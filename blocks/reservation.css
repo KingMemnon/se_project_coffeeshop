@@ -9,7 +9,7 @@
   background-size: cover;
 }
 .reservation__title {
-  font-family: "inter";
+  font-family: "inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -19,7 +19,7 @@
   padding-bottom: 80px;
 }
 .reservation__form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  margin: 0 auto;
+  max-width: 385px;
+  width: 100%;
 }
