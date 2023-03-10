@@ -5,19 +5,20 @@
 }
 .nav__links {
   margin: 0 80px 0 0;
-}
-.nav__link {
-  display: flex;
-  column-gap: 20px;
-  list-style-type: none;
-  color: #000;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+}
+.nav__link {
+  color: #000;
   text-decoration: none;
 }
 .nav__link:hover {
   color: #2d80ed;
+  transition-duration: 1s;
 }
