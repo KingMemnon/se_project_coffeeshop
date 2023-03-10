@@ -52,3 +52,13 @@
   color: #c1c1c1;
   transition-timing-function: ease-in-out;
 }
+.footer__copyright {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 108px;
+  padding-bottom: 60px;
+  color: #fff;
+}

@@ -1,6 +1,7 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  margin: 0;
 
   max-width: 385px;
   width: 100%;
@@ -16,7 +17,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 8px;
+  gap: 8px;
   padding-top: 32px;
   border-radius: 4px;
 }
@@ -29,12 +30,13 @@
   padding-left: 20px;
   height: 60px;
   color: #838383;
-  border-color: #838383;
+  border: 1px solid #838383;
   box-sizing: border-box;
   border-radius: 4px;
 }
 .form__label_type_checkbox {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding: 0;
   padding-left: 0;
