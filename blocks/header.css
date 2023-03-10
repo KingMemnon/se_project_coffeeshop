@@ -7,7 +7,7 @@
   position: relative;
   box-sizing: border-box;
   background-color: #fff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
 }
 
@@ -51,7 +51,7 @@
 }
 .header__footer {
   position: absolute;
-  left: 0;
+  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@
 .header__paragraph {
   margin: 0;
 }
-.header__footer-address {
+.header__address {
   margin-top: 150px;
   flex: none;
 }
