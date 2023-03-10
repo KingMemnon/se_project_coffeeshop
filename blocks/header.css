@@ -65,8 +65,6 @@
   color: #6f6f6f;
 }
 .header__footer-hours {
-  padding-left: 80px;
-  padding-bottom: 40px;
   margin-top: 100px;
   flex: none;
 }
@@ -74,8 +72,6 @@
   margin: 0;
 }
 .header__footer-address {
-  padding-right: 80px;
-  padding-bottom: 40px;
   margin-top: 150px;
   flex: none;
 }
