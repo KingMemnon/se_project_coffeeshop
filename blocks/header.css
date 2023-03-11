@@ -32,6 +32,8 @@
 }
 .header__description {
   margin-left: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
   max-width: 638px;
   padding-top: 28px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;

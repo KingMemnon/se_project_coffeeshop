@@ -9,7 +9,6 @@
 .footer__logo {
   width: 116px;
   height: 21px;
-  padding-left: 80px;
 }
 .footer__list {
   list-style-type: none;
@@ -26,12 +25,12 @@
 .footer__social-heading {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   color: #fff;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 20px;
-  padding-right: 100px;
+  margin-top: 0;
 }
 .footer__social-link {
   display: flex;
@@ -43,8 +42,6 @@
   line-height: 20px;
   text-decoration: none;
   color: #fff;
-  padding-right: 100px;
-  padding-bottom: 16px;
   gap: 10px;
   margin: 0;
 }
